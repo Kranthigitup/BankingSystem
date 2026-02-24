@@ -1,0 +1,56 @@
+.dashboard-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  padding-bottom: 50px;
+}
+
+.hero-slide {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+}
+
+.balance-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1cc88a;
+}
+
+.btn-gradient {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-gradient:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.feature-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
