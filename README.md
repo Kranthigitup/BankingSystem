@@ -1,4 +1,12 @@
 java version 17
+
+admin login
+username =admin
+ password=admin123
+
+ mysql database
+ user=root
+ password=root
 # 🏦 Banking System Application
 
 A full-stack banking system built using:
